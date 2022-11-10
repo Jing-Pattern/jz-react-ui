@@ -1,0 +1,57 @@
+{
+  "menus": {
+    "en-US": {
+      "/src": [
+        {
+          "title": "Alert 警告提示",
+          "meta": {
+            "__fallback": true
+          },
+          "children": [],
+          "path": "/src/alert"
+        },
+        {
+          "title": "Button",
+          "meta": {
+            "__fallback": true
+          },
+          "children": [],
+          "path": "/src/button"
+        }
+      ],
+      "/docs": [
+        {
+          "path": "/docs",
+          "title": "jz UI",
+          "meta": {}
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {
+    "en-US": [
+      {
+        "title": "组件",
+        "path": "/src"
+      },
+      {
+        "path": "/docs",
+        "title": "Docs"
+      }
+    ]
+  },
+  "title": "jz UI",
+  "mode": "site",
+  "repository": {
+    "url": "https://github.com/Jing-Pattern/jz-react-ui",
+    "branch": "master"
+  },
+  "theme": {},
+  "exportStatic": {}
+}

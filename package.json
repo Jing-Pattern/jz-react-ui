@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "dumi dev", 
+  "build:site": "rimraf doc-site && dumi build", 
+  "preview:site": "npm run build:site && serve doc-site" 
   },
   "repository": {
     "type": "git",
@@ -21,9 +23,11 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "@umijs/fabric": "^3.0.0",
+    "dumi": "^1.1.49",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "serve": "^14.1.1",
     "typescript": "^4.8.4"
   },
   "dependencies": {
